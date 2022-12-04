@@ -1,0 +1,263 @@
+
+
+.footer{
+    margin-top: 3rem;
+    background-color:$yellow-1;
+    .container{
+        .registr{
+            display: flex;
+            align-items: center;
+            border: 1px solid #99A2A5;
+            border-radius: 8px;
+            justify-content: space-around;
+            background-color:$blue-1 ;
+            h3{
+                font-size: 24px;
+                color: $white;
+            }
+        
+             .footer__input1{
+                    padding: 15px 5px 15px 10px;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    // border-radius: 30px;
+                    border: 1px solid #99A2A5;
+                    border-radius: 15px;
+                    gap: 10px;
+                    input{
+                        border: none;
+                        width: 450px;
+                        outline: none;
+                    }
+                   
+                }
+             }
+            .btnlar{
+                background-color: $white;
+                margin-top: 2rem;
+                padding: 1rem ;
+                border: 1px solid #99A2A5;
+                border-radius: 15px;
+                margin-bottom: 2rem;
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                .blue__btn{
+                    border-radius: 8px;
+                    padding: 23px 20px 23px 20px;
+                }
+            }
+
+            .addres{
+                display: flex;
+                justify-content: space-between;
+                .addres__link{
+                    display: flex;
+                    gap: 5rem;
+                    padding-top: 2rem;
+                }
+                .tarmoq{
+                    display: flex;
+                    gap: 3rem;
+                    padding-top: 2rem;
+                
+                }
+
+
+
+
+
+                    
+                }
+                .futer__oxiri{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top:5rem;
+                }
+            }
+        }
+    
+
+
+
+        @media (max-width:1200px) {
+            
+              
+            .footer{
+                
+                .container{
+                  width: 860px;
+
+                    .registr{
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 700px;
+                        margin: 0 auto;
+                        
+                        
+                        h3{
+                            padding: 2rem;
+                            padding-left: 2rem;
+                            font-size: 24px;
+                            color: $white;
+                            
+                        }
+                    
+                         .footer__input1{
+                                padding: 15px 5px 15px 10px;
+                                background-color: white;
+                                display: flex;
+                                align-items: center;
+                                
+                                border: 1px solid #99A2A5;
+                                border-radius: 15px;
+                                gap: 10px;
+                                input{
+                                    border: none;
+                                    width: 450px;
+                                    outline: none;
+                                }
+                               
+                            }
+                         }
+                        .btnlar{
+                            background-color: $white;
+                            margin-top: 2rem;
+                            padding: 1rem ;
+                            border: 1px solid #99A2A5;
+                            border-radius: 15px;
+                            margin-bottom: 2rem;
+                            display: flex;
+                            gap: 5px;
+                            align-items: center;
+                            .blue__btn{
+                                border-radius: 8px;
+                                padding: 23px 20px 23px 20px;
+                            }
+                        }
+            
+                        .addres{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            .addres__link{
+                                display: flex;
+                               gap: 10rem;
+                                padding-top: 2rem;
+                            }
+                            .tarmoq{
+                                display: flex;
+                                gap: 3rem;
+                                padding-top: 2rem;
+                            
+                            }
+                                
+                            }
+                            .futer__oxiri{
+                                display: flex;
+                                 flex-direction:column-reverse;    
+                                  gap: 1rem;
+                                margin-top:2rem;
+                            }
+                        }
+                    }
+            }
+
+
+
+
+
+            @media (max-width:870px) {
+            
+              
+                .footer{
+                    
+                    .container{
+                      width: 560px;
+    
+                        .registr{
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: 500px;
+                            margin: 0 auto;
+                            
+                            
+                            h3{
+                                padding: 2rem;
+                                padding-left: 2rem;
+                                font-size: 24px;
+                                color: $white;
+                                
+                            }
+                        
+                             .footer__input1{
+                                
+                                    padding: 20px 25px;
+                                    background-color: white;
+                                    display: flex;
+                                    align-items: center;
+                                    
+                                    border: 1px solid #99A2A5;
+                                    border-radius: 15px;
+                                    gap: 10px;
+                                    input{
+                                        border: none;
+                                        width: 350px;
+                                        outline: none;
+                                    }
+                                   margin: 0 auto;
+                                   padding: 0;
+                                }
+                             }
+                            .btnlar{
+                                background-color: $white;
+                                margin-top: 2rem;
+                                padding: 1rem ;
+                                border: 1px solid #99A2A5;
+                                border-radius: 15px;
+                                margin-bottom: 2rem;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 5px;
+                                align-items: center;
+                                .blue__btn{
+                                    border-radius: 8px;
+                                    padding: 10px 10px 10px 10px;
+                                }
+                            }
+                
+                            .addres{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                .addres__link{
+                                    display: flex;
+                                   gap: 5rem;
+                                    padding-top: 2rem;
+                                }
+                                .tarmoq{
+                                    display: flex;
+                                    gap: 3rem;
+                                    padding-top: 2rem;
+                                
+                                }
+                                    
+                                }
+                                .futer__oxiri{
+                                    display: flex;
+                                     flex-direction:column-reverse;    
+                                      gap: 1rem;
+                                    margin-top:2rem;
+                                }
+                            }
+                        }
+                }
+
+
+                @media (max-width:570px){
+                  .container{
+                    max-width: 100%;
+                  }
+                }

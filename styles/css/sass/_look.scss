@@ -1,0 +1,103 @@
+
+    .look{
+        &--text{
+            display: flex;
+            justify-content: space-between;
+            h3{
+                font-size: 24px;
+                font-weight: 700;
+                color: $blue-1;
+                text-transform: capitalize;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+        }
+        &__card{
+            
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 1rem;
+             
+            .card{
+                background-color: $white-1;
+                padding-left: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                border-radius: 7px;
+                img{
+                    padding-bottom: 1rem;
+                    padding-right: 10px;
+                }
+                h5{
+                    font-size: 16px;
+                    font-weight: 700;
+                    padding-top: 5px;
+                }
+                span{
+                    color: $white-4;
+                }
+
+            }
+        }
+    }
+
+
+    @media (max-width:1200px){
+        .look{
+            .container{
+                width: 860px;
+            }
+            &--text{
+                align-items: center;
+
+            }
+            &__card{
+                grid-template-columns: repeat(2, 1fr);  
+                    
+                .card{
+                
+                    img{
+                        width: 100%; 
+                    }
+                  
+                }
+            }
+        } 
+    }
+
+    
+    @media (max-width:880px){
+        .look{
+            .container{
+                width: 560px;
+            }
+            &--text{
+                align-items: center;
+                button {
+                    display: none;
+                }
+
+            }
+            &__card{
+                grid-template-columns: repeat(2, 1fr);  
+                padding: 0;
+                margin: 0;
+                gap: 5px;
+                    
+                .card{
+                    width: 300px;
+                 display: flex;
+                 flex-direction: column;
+                    img{
+                        width:100%; 
+                    }
+                  
+                }
+            }
+        } 
+    }
+   
+
+
+
+

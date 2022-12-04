@@ -1,0 +1,58 @@
+
+
+.adoption{
+  .adaption__box{
+    .container{
+        .adaption__text{
+            display: flex;
+            justify-content: space-between;
+            .text--page{
+                display: flex;
+                gap: 1rem;
+            }
+        }
+        .partnor{
+            display: flex;
+            justify-content: space-between;
+        }
+        padding-bottom: 2rem;
+
+
+      .help{
+        background-color: antiquewhite;
+        margin-top: 4rem;
+        display: flex;
+
+        .help__text{
+
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: 4rem;
+          gap: 1rem;
+
+          h1 ,h2{
+            color: $blue-1;
+          }
+          h2{
+            font-size: 36px;
+          }
+          .btnlar{
+            display: flex;
+            gap: 9px;
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width:1200px){
+.adoption{
+    .container{
+    width: 860px;
+    display: none;
+    }
+}
+}

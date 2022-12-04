@@ -1,0 +1,116 @@
+.three--cat {
+  .container {
+    .box__list {
+      display: flex;
+      justify-content: space-between;
+      .box__text {
+        h5,
+        h3 {
+          color: $blue-1;
+          padding-bottom: 5px;
+        }
+      }
+    }
+    .cat__box {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .card {
+        box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+
+        padding: 8px;
+        padding-left: 0.7rem;
+        h4 {
+          line-height: 1.3rem;
+          padding-bottom: 8px;
+          padding-top: 1rem;
+        }
+        button {
+          margin-top: 6px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .three--cat {
+    .container {
+      width: 860px;
+      .box__list {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+    .cat__box {
+      margin-top: 1rem;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 10px 0px;
+
+      .card {
+        width: 380px;
+      
+      }
+      .mushuk {
+        display: none;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 870px) {
+ 
+
+  .three--cat {
+    .container {
+      width: 560px;
+      .box__list {
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .cat__box {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        
+        .mushuk{
+          
+          display: flex;
+          flex-direction: column;
+        }
+        .card {
+          display: flex;
+          flex-direction: column;
+          row-gap: 2rem;
+          gap: 2rem;
+          box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+          border-radius: 12px;
+          width: 100%;
+  
+          }
+          button {
+            margin-top: 6px;
+            padding-left: 1rem;
+              width: 110px;
+              text-align: center;
+
+
+            
+          }
+        }
+      }
+    }
+  }
+
+
+  @media screen and (max-width: 570px){
+    .container{
+       width: 100%;
+    }
+  }
+

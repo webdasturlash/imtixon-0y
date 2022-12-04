@@ -1,0 +1,64 @@
+
+  %btn{
+    all: unset;
+    box-sizing:border-box ;
+    display: flex;
+    border-radius:2rem;
+    align-items: center;
+    height: 30px;
+    text-align: center;
+    padding: 1.2rem 2rem 1.2rem 2rem;
+    background-color: $blue-1;
+    color:$white ;
+    font-size:14px; 
+    
+ }
+ 
+
+
+ .yellow-btn {
+    @extend %btn;
+    padding: 1.2rem 2rem 1.2rem 2rem;
+    background-color:$yellow-2 ;
+    color:$blue-1 ;
+    border: 1px solid $blue-1;
+    &:hover{
+        opacity: 0.3;
+    }
+ }
+
+ .blue__btn{
+   @extend %btn;
+   background-color:$blue-1 ;
+   color: $white-1;
+   font-size: 12px;
+   
+ }
+
+
+
+ .white-btn {
+    @extend %btn;
+    padding: 1.2rem 2rem 1.2rem 2rem;
+    background-color:$white;
+    border-radius:2rem;
+    color: $blue-1;
+    font-weight: 500;
+    font-size: 13px;
+    border: 1px solid $blue-1;
+    
+
+   }
+
+   .kok-btn{
+      all: unset;
+      box-sizing:border-box ;
+      display: flex;
+      border-radius:2rem;
+      align-items: center;
+      background-color: $blue-sea;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 7px;
+      color:$white-1 ;
+   }

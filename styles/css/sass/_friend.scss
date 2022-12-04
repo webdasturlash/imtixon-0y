@@ -1,0 +1,58 @@
+
+.friend{
+   
+    .container{
+        background-color: $yellow-1;
+        display: flex;
+        flex: 1;
+        .btnlar {
+            display: flex;
+            gap: 2rem;
+            padding-left: 15rem;
+        
+          }
+
+        .portion{
+
+            display: flex;
+            text-align: end;
+            color: $blue-1;
+            flex-direction: column;
+            gap: 1rem;
+            h1{
+                margin-top: 2rem;
+            }
+        }
+    }
+}
+
+@media (max-width:1200px){
+    .friend{
+        
+        .container{
+            width: 860px;
+            flex-direction: column-reverse;
+            
+            .portion{
+               text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width:860px){
+    .friend{
+        
+        .container{
+            width: 580px;
+            flex-direction: column-reverse;
+            .btnlar{
+                padding-left: 9rem;
+            }
+            
+            .portion{
+               text-align: center;
+            }
+        }
+    }
+}
